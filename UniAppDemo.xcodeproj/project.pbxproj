@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DBDC25F42338C3E673BB8D /* Pods_UniAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED07F56B29FCB115380CA2C4 /* Pods_UniAppDemo.framework */; };
 		3ECF2D24281A3FA400E0AC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2D23281A3FA400E0AC16 /* AppDelegate.m */; };
-		3ECF2D27281A3FA400E0AC16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2D26281A3FA400E0AC16 /* SceneDelegate.m */; };
 		3ECF2D2A281A3FA400E0AC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2D29281A3FA400E0AC16 /* ViewController.m */; };
 		3ECF2D2D281A3FA400E0AC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2D2B281A3FA400E0AC16 /* Main.storyboard */; };
 		3ECF2D2F281A3FA500E0AC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2D2E281A3FA500E0AC16 /* Assets.xcassets */; };
 		3ECF2D32281A3FA500E0AC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2D30281A3FA500E0AC16 /* LaunchScreen.storyboard */; };
 		3ECF2D35281A3FA500E0AC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF2D34281A3FA500E0AC16 /* main.m */; };
+		3ECF2D53281A405900E0AC16 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D52281A405900E0AC16 /* JavaScriptCore.framework */; };
+		3ECF2D55281A407D00E0AC16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D54281A407D00E0AC16 /* AVFoundation.framework */; };
+		3ECF2D57281A408700E0AC16 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D56281A408700E0AC16 /* OpenGLES.framework */; };
+		3ECF2D59281A409300E0AC16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D58281A409300E0AC16 /* CoreGraphics.framework */; };
+		3ECF2D5B281A409C00E0AC16 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D5A281A409C00E0AC16 /* CoreTelephony.framework */; };
+		3ECF2D5D281A40AA00E0AC16 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D5C281A40AA00E0AC16 /* AddressBook.framework */; };
+		3ECF2D5F281A40B300E0AC16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D5E281A40B300E0AC16 /* CoreMedia.framework */; };
+		3ECF2D61281A40BB00E0AC16 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D60281A40BB00E0AC16 /* AVKit.framework */; };
+		3ECF2D63281A40D700E0AC16 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D62281A40D700E0AC16 /* CoreText.framework */; };
+		3ECF2D65281A40E700E0AC16 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D64281A40E700E0AC16 /* libc++.tbd */; };
+		3ECF2D67281A40F100E0AC16 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D66281A40F100E0AC16 /* AssetsLibrary.framework */; };
+		3ECF2D69281A40FC00E0AC16 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D68281A40FC00E0AC16 /* libiconv.tbd */; };
+		3ECF2D6B281A410600E0AC16 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D6A281A410600E0AC16 /* MediaPlayer.framework */; };
+		3ECF2D6D281A411000E0AC16 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D6C281A410F00E0AC16 /* GLKit.framework */; };
+		3ECF2D6F281A411A00E0AC16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D6E281A411A00E0AC16 /* QuartzCore.framework */; };
+		3ECF2D71281A412400E0AC16 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D70281A412400E0AC16 /* QuickLook.framework */; };
+		3ECF2D73281A412F00E0AC16 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2D72281A412F00E0AC16 /* CoreLocation.framework */; };
+		3ECF2E34281A62AC00E0AC16 /* __uniappes6.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE0281A62AB00E0AC16 /* __uniappes6.js */; };
+		3ECF2E35281A62AC00E0AC16 /* uni-jsframework.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE1281A62AB00E0AC16 /* uni-jsframework.js */; };
+		3ECF2E36281A62AC00E0AC16 /* PandoraApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE2281A62AB00E0AC16 /* PandoraApi.bundle */; };
+		3ECF2E37281A62AC00E0AC16 /* uni-jsframework-vue3.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE3281A62AB00E0AC16 /* uni-jsframework-vue3.js */; };
+		3ECF2E38281A62AC00E0AC16 /* unincomponents.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE4281A62AB00E0AC16 /* unincomponents.ttf */; };
+		3ECF2E39281A62AC00E0AC16 /* weex-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE5281A62AB00E0AC16 /* weex-polyfill.js */; };
+		3ECF2E3A281A62AC00E0AC16 /* weexUniJs.js in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF2DE6281A62AB00E0AC16 /* weexUniJs.js */; };
+		3ECF2E51281A6AB700E0AC16 /* libcoreSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E46281A6AB700E0AC16 /* libcoreSupport.a */; };
+		3ECF2E52281A6AB700E0AC16 /* liblibStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E47281A6AB700E0AC16 /* liblibStorage.a */; };
+		3ECF2E53281A6AB700E0AC16 /* liblibNativeUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E48281A6AB700E0AC16 /* liblibNativeUI.a */; };
+		3ECF2E54281A6AB700E0AC16 /* liblibNativeObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E49281A6AB700E0AC16 /* liblibNativeObj.a */; };
+		3ECF2E55281A6AB700E0AC16 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4A281A6AB700E0AC16 /* libSDWebImage.a */; };
+		3ECF2E56281A6AB700E0AC16 /* liblibPDRCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4B281A6AB700E0AC16 /* liblibPDRCore.a */; };
+		3ECF2E57281A6AB700E0AC16 /* storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4C281A6AB700E0AC16 /* storage.framework */; };
+		3ECF2E58281A6AB700E0AC16 /* liblibIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4D281A6AB700E0AC16 /* liblibIO.a */; };
+		3ECF2E59281A6AB700E0AC16 /* liblibWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4E281A6AB700E0AC16 /* liblibWeex.a */; };
+		3ECF2E5A281A6AB700E0AC16 /* liblibNavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4F281A6AB700E0AC16 /* liblibNavigator.a */; };
+		3ECF2E5B281A6AB700E0AC16 /* liblibUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E50281A6AB700E0AC16 /* liblibUI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2579DA941C29759231C6FF20 /* Pods-UniAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3ECF2D1F281A3FA400E0AC16 /* UniAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECF2D22281A3FA400E0AC16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3ECF2D23281A3FA400E0AC16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3ECF2D25281A3FA400E0AC16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		3ECF2D26281A3FA400E0AC16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3ECF2D28281A3FA400E0AC16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3ECF2D29281A3FA400E0AC16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3ECF2D2C281A3FA400E0AC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +63,128 @@
 		3ECF2D31281A3FA500E0AC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ECF2D33281A3FA500E0AC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ECF2D34281A3FA500E0AC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ECF2D3C281A403900E0AC16 /* liblibStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibStorage.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibStorage.a"; sourceTree = "<group>"; };
+		3ECF2D3D281A403900E0AC16 /* liblibNavigator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibNavigator.a"; sourceTree = "<group>"; };
+		3ECF2D3E281A403900E0AC16 /* libcoreSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/libcoreSupport.a"; sourceTree = "<group>"; };
+		3ECF2D3F281A403900E0AC16 /* liblibPDRCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibPDRCore.a"; sourceTree = "<group>"; };
+		3ECF2D40281A403900E0AC16 /* liblibIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibIO.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibIO.a"; sourceTree = "<group>"; };
+		3ECF2D41281A403900E0AC16 /* liblibUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibUI.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibUI.a"; sourceTree = "<group>"; };
+		3ECF2D42281A403900E0AC16 /* liblibWeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibWeex.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibWeex.a"; sourceTree = "<group>"; };
+		3ECF2D43281A403900E0AC16 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/storage.framework"; sourceTree = "<group>"; };
+		3ECF2D44281A403900E0AC16 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/libSDWebImage.a"; sourceTree = "<group>"; };
+		3ECF2D45281A403900E0AC16 /* liblibNativeObj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibNativeObj.a"; sourceTree = "<group>"; };
+		3ECF2D46281A403900E0AC16 /* liblibNativeUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = "../../../Downloads/UniMPSDK_iOS@3.4.7/UniMPSDK/Core/Libs/liblibNativeUI.a"; sourceTree = "<group>"; };
+		3ECF2D52281A405900E0AC16 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3ECF2D54281A407D00E0AC16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3ECF2D56281A408700E0AC16 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3ECF2D58281A409300E0AC16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ECF2D5A281A409C00E0AC16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3ECF2D5C281A40AA00E0AC16 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3ECF2D5E281A40B300E0AC16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3ECF2D60281A40BB00E0AC16 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3ECF2D62281A40D700E0AC16 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3ECF2D64281A40E700E0AC16 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3ECF2D66281A40F100E0AC16 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3ECF2D68281A40FC00E0AC16 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		3ECF2D6A281A410600E0AC16 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3ECF2D6C281A410F00E0AC16 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3ECF2D6E281A411A00E0AC16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3ECF2D70281A412400E0AC16 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		3ECF2D72281A412F00E0AC16 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3ECF2DE0281A62AB00E0AC16 /* __uniappes6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = __uniappes6.js; sourceTree = "<group>"; };
+		3ECF2DE1281A62AB00E0AC16 /* uni-jsframework.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework.js"; sourceTree = "<group>"; };
+		3ECF2DE2281A62AB00E0AC16 /* PandoraApi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandoraApi.bundle; sourceTree = "<group>"; };
+		3ECF2DE3281A62AB00E0AC16 /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		3ECF2DE4281A62AB00E0AC16 /* unincomponents.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unincomponents.ttf; sourceTree = "<group>"; };
+		3ECF2DE5281A62AB00E0AC16 /* weex-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "weex-polyfill.js"; sourceTree = "<group>"; };
+		3ECF2DE6281A62AB00E0AC16 /* weexUniJs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = weexUniJs.js; sourceTree = "<group>"; };
+		3ECF2DE8281A62AB00E0AC16 /* DCUniMPSDKEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPSDKEngine.h; sourceTree = "<group>"; };
+		3ECF2DE9281A62AB00E0AC16 /* DCUniMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMP.h; sourceTree = "<group>"; };
+		3ECF2DEA281A62AB00E0AC16 /* DCUniMPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPConfiguration.h; sourceTree = "<group>"; };
+		3ECF2DEB281A62AB00E0AC16 /* DCUniMPInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPInstance.h; sourceTree = "<group>"; };
+		3ECF2DED281A62AB00E0AC16 /* WXModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXModuleProtocol.h; sourceTree = "<group>"; };
+		3ECF2DEE281A62AB00E0AC16 /* WXResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceLoader.h; sourceTree = "<group>"; };
+		3ECF2DEF281A62AB00E0AC16 /* WXApmForInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApmForInstance.h; sourceTree = "<group>"; };
+		3ECF2DF0281A62AB00E0AC16 /* WXWebSocketHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXWebSocketHandler.h; sourceTree = "<group>"; };
+		3ECF2DF1281A62AB00E0AC16 /* WXImgLoaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderProtocol.h; sourceTree = "<group>"; };
+		3ECF2DF2281A62AB00E0AC16 /* WXComponentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXComponentManager.h; sourceTree = "<group>"; };
+		3ECF2DF3281A62AB00E0AC16 /* WXScrollerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScrollerProtocol.h; sourceTree = "<group>"; };
+		3ECF2DF4281A62AB00E0AC16 /* WXRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRichText.h; sourceTree = "<group>"; };
+		3ECF2DF5281A62AB00E0AC16 /* WXView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXView.h; sourceTree = "<group>"; };
+		3ECF2DF6281A62AB00E0AC16 /* WXValidateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXValidateProtocol.h; sourceTree = "<group>"; };
+		3ECF2DF7281A62AB00E0AC16 /* WXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDefine.h; sourceTree = "<group>"; };
+		3ECF2DF8281A62AB00E0AC16 /* JSContext+Weex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSContext+Weex.h"; sourceTree = "<group>"; };
+		3ECF2DF9281A62AB00E0AC16 /* WXExtendCallNativeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXExtendCallNativeProtocol.h; sourceTree = "<group>"; };
+		3ECF2DFA281A62AB00E0AC16 /* WXSDKEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKEngine.h; sourceTree = "<group>"; };
+		3ECF2DFB281A62AB00E0AC16 /* style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = style.h; sourceTree = "<group>"; };
+		3ECF2DFC281A62AB00E0AC16 /* WXResourceRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceRequestHandler.h; sourceTree = "<group>"; };
+		3ECF2DFD281A62AB00E0AC16 /* WXDisplayLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDisplayLinkManager.h; sourceTree = "<group>"; };
+		3ECF2DFE281A62AB00E0AC16 /* WXUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtility.h; sourceTree = "<group>"; };
+		3ECF2DFF281A62AB00E0AC16 /* WXResourceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceRequest.h; sourceTree = "<group>"; };
+		3ECF2E00281A62AB00E0AC16 /* WXConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConvert.h; sourceTree = "<group>"; };
+		3ECF2E01281A62AB00E0AC16 /* WXPageEventNotifyEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPageEventNotifyEvent.h; sourceTree = "<group>"; };
+		3ECF2E02281A62AB00E0AC16 /* WXSDKInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKInstance.h; sourceTree = "<group>"; };
+		3ECF2E03281A62AB00E0AC16 /* WXSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKManager.h; sourceTree = "<group>"; };
+		3ECF2E04281A62AB00E0AC16 /* WXDebugTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDebugTool.h; sourceTree = "<group>"; };
+		3ECF2E05281A62AB00E0AC16 /* WXType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXType.h; sourceTree = "<group>"; };
+		3ECF2E06281A62AB00E0AC16 /* WXApmProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApmProtocol.h; sourceTree = "<group>"; };
+		3ECF2E07281A62AB00E0AC16 /* WXJSFrameworkLoadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSFrameworkLoadProtocol.h; sourceTree = "<group>"; };
+		3ECF2E08281A62AB00E0AC16 /* WXExceptionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXExceptionUtils.h; sourceTree = "<group>"; };
+		3ECF2E09281A62AB00E0AC16 /* WXIndicatorComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXIndicatorComponent.h; sourceTree = "<group>"; };
+		3ECF2E0A281A62AB00E0AC16 /* WXErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXErrorView.h; sourceTree = "<group>"; };
+		3ECF2E0B281A62AB00E0AC16 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
+		3ECF2E0C281A62AB00E0AC16 /* WXMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMonitor.h; sourceTree = "<group>"; };
+		3ECF2E0D281A62AB00E0AC16 /* WXSDKInstance+DCExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+DCExtend.h"; sourceTree = "<group>"; };
+		3ECF2E0E281A62AB00E0AC16 /* WXRecyclerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRecyclerComponent.h; sourceTree = "<group>"; };
+		3ECF2E0F281A62AB00E0AC16 /* WXScrollerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScrollerComponent.h; sourceTree = "<group>"; };
+		3ECF2E10281A62AB00E0AC16 /* WXNetworkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNetworkProtocol.h; sourceTree = "<group>"; };
+		3ECF2E11281A62AB00E0AC16 /* WXTracingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTracingManager.h; sourceTree = "<group>"; };
+		3ECF2E12281A62AB00E0AC16 /* WXComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXComponent.h; sourceTree = "<group>"; };
+		3ECF2E13281A62AB00E0AC16 /* WXPrerenderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPrerenderManager.h; sourceTree = "<group>"; };
+		3ECF2E14281A62AB00E0AC16 /* WXComponent+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXComponent+Layout.h"; sourceTree = "<group>"; };
+		3ECF2E15281A62AB00E0AC16 /* layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layout.h; sourceTree = "<group>"; };
+		3ECF2E16281A62AB00E0AC16 /* WXSDKInstance+Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXSDKInstance+Bridge.h"; sourceTree = "<group>"; };
+		3ECF2E17281A62AB00E0AC16 /* UniPluginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniPluginProtocol.h; sourceTree = "<group>"; };
+		3ECF2E18281A62AB00E0AC16 /* WXModalUIModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXModalUIModule.h; sourceTree = "<group>"; };
+		3ECF2E19281A62AB00E0AC16 /* WXAnalyzerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerCenter.h; sourceTree = "<group>"; };
+		3ECF2E1A281A62AB00E0AC16 /* WXVoiceOverModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXVoiceOverModule.h; sourceTree = "<group>"; };
+		3ECF2E1B281A62AB00E0AC16 /* WXRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRootView.h; sourceTree = "<group>"; };
+		3ECF2E1C281A62AB00E0AC16 /* WXAppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppConfiguration.h; sourceTree = "<group>"; };
+		3ECF2E1D281A62AB00E0AC16 /* WXListComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXListComponent.h; sourceTree = "<group>"; };
+		3ECF2E1E281A62AB00E0AC16 /* WXSDKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSDKError.h; sourceTree = "<group>"; };
+		3ECF2E1F281A62AB00E0AC16 /* WXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRootViewController.h; sourceTree = "<group>"; };
+		3ECF2E20281A62AB00E0AC16 /* WXNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNavigationProtocol.h; sourceTree = "<group>"; };
+		3ECF2E21281A62AB00E0AC16 /* WXAnalyzerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAnalyzerProtocol.h; sourceTree = "<group>"; };
+		3ECF2E22281A62AB00E0AC16 /* WeexSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexSDK.h; sourceTree = "<group>"; };
+		3ECF2E23281A62AB00E0AC16 /* WXBridgeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBridgeManager.h; sourceTree = "<group>"; };
+		3ECF2E24281A62AB00E0AC16 /* WXResourceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXResourceResponse.h; sourceTree = "<group>"; };
+		3ECF2E25281A62AB00E0AC16 /* WXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBaseViewController.h; sourceTree = "<group>"; };
+		3ECF2E26281A62AB00E0AC16 /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAppMonitorProtocol.h; sourceTree = "<group>"; };
+		3ECF2E27281A62AB00E0AC16 /* WeexProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexProtocol.h; sourceTree = "<group>"; };
+		3ECF2E28281A62AB00E0AC16 /* WXJSExceptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionProtocol.h; sourceTree = "<group>"; };
+		3ECF2E29281A62AB00E0AC16 /* WXJSExceptionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJSExceptionInfo.h; sourceTree = "<group>"; };
+		3ECF2E2A281A62AB00E0AC16 /* WXTracingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTracingProtocol.h; sourceTree = "<group>"; };
+		3ECF2E2B281A62AB00E0AC16 /* flex_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flex_enum.h; sourceTree = "<group>"; };
+		3ECF2E2C281A62AB00E0AC16 /* WXConfigCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConfigCenterProtocol.h; sourceTree = "<group>"; };
+		3ECF2E2D281A62AB00E0AC16 /* WXEventModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXEventModuleProtocol.h; sourceTree = "<group>"; };
+		3ECF2E2E281A62AB00E0AC16 /* WXURLRewriteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXURLRewriteProtocol.h; sourceTree = "<group>"; };
+		3ECF2E2F281A62AB00E0AC16 /* WXAComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAComponent.h; sourceTree = "<group>"; };
+		3ECF2E30281A62AB00E0AC16 /* WXBridgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXBridgeProtocol.h; sourceTree = "<group>"; };
+		3ECF2E31281A62AB00E0AC16 /* DCUniMPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPError.h; sourceTree = "<group>"; };
+		3ECF2E32281A62AB00E0AC16 /* DCUniMPMenuActionSheetStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUniMPMenuActionSheetStyle.h; sourceTree = "<group>"; };
+		3ECF2E46281A6AB700E0AC16 /* libcoreSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcoreSupport.a; path = UniAppDemo/Libs/libcoreSupport.a; sourceTree = "<group>"; };
+		3ECF2E47281A6AB700E0AC16 /* liblibStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibStorage.a; path = UniAppDemo/Libs/liblibStorage.a; sourceTree = "<group>"; };
+		3ECF2E48281A6AB700E0AC16 /* liblibNativeUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNativeUI.a; path = UniAppDemo/Libs/liblibNativeUI.a; sourceTree = "<group>"; };
+		3ECF2E49281A6AB700E0AC16 /* liblibNativeObj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNativeObj.a; path = UniAppDemo/Libs/liblibNativeObj.a; sourceTree = "<group>"; };
+		3ECF2E4A281A6AB700E0AC16 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = UniAppDemo/Libs/libSDWebImage.a; sourceTree = "<group>"; };
+		3ECF2E4B281A6AB700E0AC16 /* liblibPDRCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibPDRCore.a; path = UniAppDemo/Libs/liblibPDRCore.a; sourceTree = "<group>"; };
+		3ECF2E4C281A6AB700E0AC16 /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = storage.framework; path = UniAppDemo/Libs/storage.framework; sourceTree = "<group>"; };
+		3ECF2E4D281A6AB700E0AC16 /* liblibIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibIO.a; path = UniAppDemo/Libs/liblibIO.a; sourceTree = "<group>"; };
+		3ECF2E4E281A6AB700E0AC16 /* liblibWeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibWeex.a; path = UniAppDemo/Libs/liblibWeex.a; sourceTree = "<group>"; };
+		3ECF2E4F281A6AB700E0AC16 /* liblibNavigator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibNavigator.a; path = UniAppDemo/Libs/liblibNavigator.a; sourceTree = "<group>"; };
+		3ECF2E50281A6AB700E0AC16 /* liblibUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibUI.a; path = UniAppDemo/Libs/liblibUI.a; sourceTree = "<group>"; };
+		5A5524445FF895862B46F395 /* Pods-UniAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniAppDemo.release.xcconfig"; path = "Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED07F56B29FCB115380CA2C4 /* Pods_UniAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +192,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECF2E51281A6AB700E0AC16 /* libcoreSupport.a in Frameworks */,
+				3ECF2E52281A6AB700E0AC16 /* liblibStorage.a in Frameworks */,
+				3ECF2E53281A6AB700E0AC16 /* liblibNativeUI.a in Frameworks */,
+				3ECF2E54281A6AB700E0AC16 /* liblibNativeObj.a in Frameworks */,
+				3ECF2E55281A6AB700E0AC16 /* libSDWebImage.a in Frameworks */,
+				3ECF2E56281A6AB700E0AC16 /* liblibPDRCore.a in Frameworks */,
+				3ECF2E57281A6AB700E0AC16 /* storage.framework in Frameworks */,
+				3ECF2E58281A6AB700E0AC16 /* liblibIO.a in Frameworks */,
+				3ECF2E59281A6AB700E0AC16 /* liblibWeex.a in Frameworks */,
+				3ECF2E5A281A6AB700E0AC16 /* liblibNavigator.a in Frameworks */,
+				3ECF2E5B281A6AB700E0AC16 /* liblibUI.a in Frameworks */,
+				3ECF2D73281A412F00E0AC16 /* CoreLocation.framework in Frameworks */,
+				3ECF2D71281A412400E0AC16 /* QuickLook.framework in Frameworks */,
+				3ECF2D6F281A411A00E0AC16 /* QuartzCore.framework in Frameworks */,
+				3ECF2D6D281A411000E0AC16 /* GLKit.framework in Frameworks */,
+				3ECF2D6B281A410600E0AC16 /* MediaPlayer.framework in Frameworks */,
+				3ECF2D69281A40FC00E0AC16 /* libiconv.tbd in Frameworks */,
+				3ECF2D67281A40F100E0AC16 /* AssetsLibrary.framework in Frameworks */,
+				3ECF2D65281A40E700E0AC16 /* libc++.tbd in Frameworks */,
+				3ECF2D63281A40D700E0AC16 /* CoreText.framework in Frameworks */,
+				3ECF2D61281A40BB00E0AC16 /* AVKit.framework in Frameworks */,
+				3ECF2D5F281A40B300E0AC16 /* CoreMedia.framework in Frameworks */,
+				3ECF2D5D281A40AA00E0AC16 /* AddressBook.framework in Frameworks */,
+				3ECF2D5B281A409C00E0AC16 /* CoreTelephony.framework in Frameworks */,
+				3ECF2D59281A409300E0AC16 /* CoreGraphics.framework in Frameworks */,
+				3ECF2D57281A408700E0AC16 /* OpenGLES.framework in Frameworks */,
+				3ECF2D55281A407D00E0AC16 /* AVFoundation.framework in Frameworks */,
+				3ECF2D53281A405900E0AC16 /* JavaScriptCore.framework in Frameworks */,
+				33DBDC25F42338C3E673BB8D /* Pods_UniAppDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +232,8 @@
 			children = (
 				3ECF2D21281A3FA400E0AC16 /* UniAppDemo */,
 				3ECF2D20281A3FA400E0AC16 /* Products */,
+				3ECF2D3B281A403900E0AC16 /* Frameworks */,
+				AA370A0570AF1593C10E431E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +248,9 @@
 		3ECF2D21281A3FA400E0AC16 /* UniAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3ECF2DDE281A62AB00E0AC16 /* UniMP */,
 				3ECF2D22281A3FA400E0AC16 /* AppDelegate.h */,
 				3ECF2D23281A3FA400E0AC16 /* AppDelegate.m */,
-				3ECF2D25281A3FA400E0AC16 /* SceneDelegate.h */,
-				3ECF2D26281A3FA400E0AC16 /* SceneDelegate.m */,
 				3ECF2D28281A3FA400E0AC16 /* ViewController.h */,
 				3ECF2D29281A3FA400E0AC16 /* ViewController.m */,
 				3ECF2D2B281A3FA400E0AC16 /* Main.storyboard */,
@@ -76,6 +262,183 @@
 			path = UniAppDemo;
 			sourceTree = "<group>";
 		};
+		3ECF2D3B281A403900E0AC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF2E46281A6AB700E0AC16 /* libcoreSupport.a */,
+				3ECF2E4D281A6AB700E0AC16 /* liblibIO.a */,
+				3ECF2E49281A6AB700E0AC16 /* liblibNativeObj.a */,
+				3ECF2E48281A6AB700E0AC16 /* liblibNativeUI.a */,
+				3ECF2E4F281A6AB700E0AC16 /* liblibNavigator.a */,
+				3ECF2E4B281A6AB700E0AC16 /* liblibPDRCore.a */,
+				3ECF2E47281A6AB700E0AC16 /* liblibStorage.a */,
+				3ECF2E50281A6AB700E0AC16 /* liblibUI.a */,
+				3ECF2E4E281A6AB700E0AC16 /* liblibWeex.a */,
+				3ECF2E4A281A6AB700E0AC16 /* libSDWebImage.a */,
+				3ECF2E4C281A6AB700E0AC16 /* storage.framework */,
+				3ECF2D72281A412F00E0AC16 /* CoreLocation.framework */,
+				3ECF2D70281A412400E0AC16 /* QuickLook.framework */,
+				3ECF2D6E281A411A00E0AC16 /* QuartzCore.framework */,
+				3ECF2D6C281A410F00E0AC16 /* GLKit.framework */,
+				3ECF2D6A281A410600E0AC16 /* MediaPlayer.framework */,
+				3ECF2D68281A40FC00E0AC16 /* libiconv.tbd */,
+				3ECF2D66281A40F100E0AC16 /* AssetsLibrary.framework */,
+				3ECF2D64281A40E700E0AC16 /* libc++.tbd */,
+				3ECF2D62281A40D700E0AC16 /* CoreText.framework */,
+				3ECF2D60281A40BB00E0AC16 /* AVKit.framework */,
+				3ECF2D5E281A40B300E0AC16 /* CoreMedia.framework */,
+				3ECF2D5C281A40AA00E0AC16 /* AddressBook.framework */,
+				3ECF2D5A281A409C00E0AC16 /* CoreTelephony.framework */,
+				3ECF2D58281A409300E0AC16 /* CoreGraphics.framework */,
+				3ECF2D56281A408700E0AC16 /* OpenGLES.framework */,
+				3ECF2D54281A407D00E0AC16 /* AVFoundation.framework */,
+				3ECF2D52281A405900E0AC16 /* JavaScriptCore.framework */,
+				3ECF2D3E281A403900E0AC16 /* libcoreSupport.a */,
+				3ECF2D40281A403900E0AC16 /* liblibIO.a */,
+				3ECF2D45281A403900E0AC16 /* liblibNativeObj.a */,
+				3ECF2D46281A403900E0AC16 /* liblibNativeUI.a */,
+				3ECF2D3D281A403900E0AC16 /* liblibNavigator.a */,
+				3ECF2D3F281A403900E0AC16 /* liblibPDRCore.a */,
+				3ECF2D3C281A403900E0AC16 /* liblibStorage.a */,
+				3ECF2D41281A403900E0AC16 /* liblibUI.a */,
+				3ECF2D42281A403900E0AC16 /* liblibWeex.a */,
+				3ECF2D44281A403900E0AC16 /* libSDWebImage.a */,
+				3ECF2D43281A403900E0AC16 /* storage.framework */,
+				ED07F56B29FCB115380CA2C4 /* Pods_UniAppDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ECF2DDE281A62AB00E0AC16 /* UniMP */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF2DDF281A62AB00E0AC16 /* Resources */,
+				3ECF2DE7281A62AB00E0AC16 /* Headers */,
+				3ECF2E33281A62AB00E0AC16 /* Apps */,
+			);
+			path = UniMP;
+			sourceTree = "<group>";
+		};
+		3ECF2DDF281A62AB00E0AC16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF2DE0281A62AB00E0AC16 /* __uniappes6.js */,
+				3ECF2DE1281A62AB00E0AC16 /* uni-jsframework.js */,
+				3ECF2DE2281A62AB00E0AC16 /* PandoraApi.bundle */,
+				3ECF2DE3281A62AB00E0AC16 /* uni-jsframework-vue3.js */,
+				3ECF2DE4281A62AB00E0AC16 /* unincomponents.ttf */,
+				3ECF2DE5281A62AB00E0AC16 /* weex-polyfill.js */,
+				3ECF2DE6281A62AB00E0AC16 /* weexUniJs.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3ECF2DE7281A62AB00E0AC16 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF2DE8281A62AB00E0AC16 /* DCUniMPSDKEngine.h */,
+				3ECF2DE9281A62AB00E0AC16 /* DCUniMP.h */,
+				3ECF2DEA281A62AB00E0AC16 /* DCUniMPConfiguration.h */,
+				3ECF2DEB281A62AB00E0AC16 /* DCUniMPInstance.h */,
+				3ECF2DEC281A62AB00E0AC16 /* weexHeader */,
+				3ECF2E31281A62AB00E0AC16 /* DCUniMPError.h */,
+				3ECF2E32281A62AB00E0AC16 /* DCUniMPMenuActionSheetStyle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3ECF2DEC281A62AB00E0AC16 /* weexHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF2DED281A62AB00E0AC16 /* WXModuleProtocol.h */,
+				3ECF2DEE281A62AB00E0AC16 /* WXResourceLoader.h */,
+				3ECF2DEF281A62AB00E0AC16 /* WXApmForInstance.h */,
+				3ECF2DF0281A62AB00E0AC16 /* WXWebSocketHandler.h */,
+				3ECF2DF1281A62AB00E0AC16 /* WXImgLoaderProtocol.h */,
+				3ECF2DF2281A62AB00E0AC16 /* WXComponentManager.h */,
+				3ECF2DF3281A62AB00E0AC16 /* WXScrollerProtocol.h */,
+				3ECF2DF4281A62AB00E0AC16 /* WXRichText.h */,
+				3ECF2DF5281A62AB00E0AC16 /* WXView.h */,
+				3ECF2DF6281A62AB00E0AC16 /* WXValidateProtocol.h */,
+				3ECF2DF7281A62AB00E0AC16 /* WXDefine.h */,
+				3ECF2DF8281A62AB00E0AC16 /* JSContext+Weex.h */,
+				3ECF2DF9281A62AB00E0AC16 /* WXExtendCallNativeProtocol.h */,
+				3ECF2DFA281A62AB00E0AC16 /* WXSDKEngine.h */,
+				3ECF2DFB281A62AB00E0AC16 /* style.h */,
+				3ECF2DFC281A62AB00E0AC16 /* WXResourceRequestHandler.h */,
+				3ECF2DFD281A62AB00E0AC16 /* WXDisplayLinkManager.h */,
+				3ECF2DFE281A62AB00E0AC16 /* WXUtility.h */,
+				3ECF2DFF281A62AB00E0AC16 /* WXResourceRequest.h */,
+				3ECF2E00281A62AB00E0AC16 /* WXConvert.h */,
+				3ECF2E01281A62AB00E0AC16 /* WXPageEventNotifyEvent.h */,
+				3ECF2E02281A62AB00E0AC16 /* WXSDKInstance.h */,
+				3ECF2E03281A62AB00E0AC16 /* WXSDKManager.h */,
+				3ECF2E04281A62AB00E0AC16 /* WXDebugTool.h */,
+				3ECF2E05281A62AB00E0AC16 /* WXType.h */,
+				3ECF2E06281A62AB00E0AC16 /* WXApmProtocol.h */,
+				3ECF2E07281A62AB00E0AC16 /* WXJSFrameworkLoadProtocol.h */,
+				3ECF2E08281A62AB00E0AC16 /* WXExceptionUtils.h */,
+				3ECF2E09281A62AB00E0AC16 /* WXIndicatorComponent.h */,
+				3ECF2E0A281A62AB00E0AC16 /* WXErrorView.h */,
+				3ECF2E0B281A62AB00E0AC16 /* NSObject+WXSwizzle.h */,
+				3ECF2E0C281A62AB00E0AC16 /* WXMonitor.h */,
+				3ECF2E0D281A62AB00E0AC16 /* WXSDKInstance+DCExtend.h */,
+				3ECF2E0E281A62AB00E0AC16 /* WXRecyclerComponent.h */,
+				3ECF2E0F281A62AB00E0AC16 /* WXScrollerComponent.h */,
+				3ECF2E10281A62AB00E0AC16 /* WXNetworkProtocol.h */,
+				3ECF2E11281A62AB00E0AC16 /* WXTracingManager.h */,
+				3ECF2E12281A62AB00E0AC16 /* WXComponent.h */,
+				3ECF2E13281A62AB00E0AC16 /* WXPrerenderManager.h */,
+				3ECF2E14281A62AB00E0AC16 /* WXComponent+Layout.h */,
+				3ECF2E15281A62AB00E0AC16 /* layout.h */,
+				3ECF2E16281A62AB00E0AC16 /* WXSDKInstance+Bridge.h */,
+				3ECF2E17281A62AB00E0AC16 /* UniPluginProtocol.h */,
+				3ECF2E18281A62AB00E0AC16 /* WXModalUIModule.h */,
+				3ECF2E19281A62AB00E0AC16 /* WXAnalyzerCenter.h */,
+				3ECF2E1A281A62AB00E0AC16 /* WXVoiceOverModule.h */,
+				3ECF2E1B281A62AB00E0AC16 /* WXRootView.h */,
+				3ECF2E1C281A62AB00E0AC16 /* WXAppConfiguration.h */,
+				3ECF2E1D281A62AB00E0AC16 /* WXListComponent.h */,
+				3ECF2E1E281A62AB00E0AC16 /* WXSDKError.h */,
+				3ECF2E1F281A62AB00E0AC16 /* WXRootViewController.h */,
+				3ECF2E20281A62AB00E0AC16 /* WXNavigationProtocol.h */,
+				3ECF2E21281A62AB00E0AC16 /* WXAnalyzerProtocol.h */,
+				3ECF2E22281A62AB00E0AC16 /* WeexSDK.h */,
+				3ECF2E23281A62AB00E0AC16 /* WXBridgeManager.h */,
+				3ECF2E24281A62AB00E0AC16 /* WXResourceResponse.h */,
+				3ECF2E25281A62AB00E0AC16 /* WXBaseViewController.h */,
+				3ECF2E26281A62AB00E0AC16 /* WXAppMonitorProtocol.h */,
+				3ECF2E27281A62AB00E0AC16 /* WeexProtocol.h */,
+				3ECF2E28281A62AB00E0AC16 /* WXJSExceptionProtocol.h */,
+				3ECF2E29281A62AB00E0AC16 /* WXJSExceptionInfo.h */,
+				3ECF2E2A281A62AB00E0AC16 /* WXTracingProtocol.h */,
+				3ECF2E2B281A62AB00E0AC16 /* flex_enum.h */,
+				3ECF2E2C281A62AB00E0AC16 /* WXConfigCenterProtocol.h */,
+				3ECF2E2D281A62AB00E0AC16 /* WXEventModuleProtocol.h */,
+				3ECF2E2E281A62AB00E0AC16 /* WXURLRewriteProtocol.h */,
+				3ECF2E2F281A62AB00E0AC16 /* WXAComponent.h */,
+				3ECF2E30281A62AB00E0AC16 /* WXBridgeProtocol.h */,
+			);
+			path = weexHeader;
+			sourceTree = "<group>";
+		};
+		3ECF2E33281A62AB00E0AC16 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		AA370A0570AF1593C10E431E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2579DA941C29759231C6FF20 /* Pods-UniAppDemo.debug.xcconfig */,
+				5A5524445FF895862B46F395 /* Pods-UniAppDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +446,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ECF2D38281A3FA500E0AC16 /* Build configuration list for PBXNativeTarget "UniAppDemo" */;
 			buildPhases = (
+				E3FA36AD44A61D19ED2AF097 /* [CP] Check Pods Manifest.lock */,
 				3ECF2D1B281A3FA400E0AC16 /* Sources */,
 				3ECF2D1C281A3FA400E0AC16 /* Frameworks */,
 				3ECF2D1D281A3FA400E0AC16 /* Resources */,
+				4C8E525EBE098B28C6CD4DD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +498,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ECF2E36281A62AC00E0AC16 /* PandoraApi.bundle in Resources */,
 				3ECF2D32281A3FA500E0AC16 /* LaunchScreen.storyboard in Resources */,
 				3ECF2D2F281A3FA500E0AC16 /* Assets.xcassets in Resources */,
+				3ECF2E37281A62AC00E0AC16 /* uni-jsframework-vue3.js in Resources */,
+				3ECF2E35281A62AC00E0AC16 /* uni-jsframework.js in Resources */,
+				3ECF2E34281A62AC00E0AC16 /* __uniappes6.js in Resources */,
+				3ECF2E38281A62AC00E0AC16 /* unincomponents.ttf in Resources */,
+				3ECF2E3A281A62AC00E0AC16 /* weexUniJs.js in Resources */,
+				3ECF2E39281A62AC00E0AC16 /* weex-polyfill.js in Resources */,
 				3ECF2D2D281A3FA400E0AC16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C8E525EBE098B28C6CD4DD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FA36AD44A61D19ED2AF097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3ECF2D1B281A3FA400E0AC16 /* Sources */ = {
@@ -149,7 +563,6 @@
 				3ECF2D2A281A3FA400E0AC16 /* ViewController.m in Sources */,
 				3ECF2D24281A3FA400E0AC16 /* AppDelegate.m in Sources */,
 				3ECF2D35281A3FA500E0AC16 /* main.m in Sources */,
-				3ECF2D27281A3FA400E0AC16 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +702,18 @@
 		};
 		3ECF2D39281A3FA500E0AC16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2579DA941C29759231C6FF20 /* Pods-UniAppDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3S9LHD28S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniAppDemo/Libs",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniAppDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,8 +725,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniAppDemo/Libs",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-11111chl.UniAppDemo";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyze.Templateapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,11 +740,18 @@
 		};
 		3ECF2D3A281A3FA500E0AC16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5524445FF895862B46F395 /* Pods-UniAppDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3S9LHD28S;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniAppDemo/Libs",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniAppDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -331,8 +763,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniAppDemo/Libs",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-11111chl.UniAppDemo";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyze.Templateapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

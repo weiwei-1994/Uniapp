@@ -1,0 +1,6 @@
+framework module Pods_UniAppDemo {
+  umbrella header "Pods-UniAppDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
