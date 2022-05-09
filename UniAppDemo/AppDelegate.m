@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "DCUniMP.h"
 
+#import "WeexSDK.h"
+
 @interface AppDelegate ()
 
 @end
@@ -29,6 +31,13 @@
    [options setObject:[NSNumber numberWithBool:YES] forKey:@"debug"];
    // 初始化引擎
    [DCUniMPSDKEngine initSDKEnvironmentWithLaunchOptions:options];
+    
+    // 注册 module 注：module的 Name 需要保证唯一， class：为 module 的类名
+    [WXSDKEngine registerModule:@"TestModule" withClass:NSClassFromString(@"TestModule")];
+    
+    
+    // 注册 component 注：component 的 Name 需要保证唯一， class：为 component 的类名
+    [WXSDKEngine registerComponent:@"testmap" withClass:NSClassFromString(@"TestComponent")];
     
     return YES;
 }

@@ -49,6 +49,10 @@
 		3ECF2E59281A6AB700E0AC16 /* liblibWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4E281A6AB700E0AC16 /* liblibWeex.a */; };
 		3ECF2E5A281A6AB700E0AC16 /* liblibNavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E4F281A6AB700E0AC16 /* liblibNavigator.a */; };
 		3ECF2E5B281A6AB700E0AC16 /* liblibUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF2E50281A6AB700E0AC16 /* liblibUI.a */; };
+		FBC649852828C88A00A877E0 /* TestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC649842828C88A00A877E0 /* TestModule.m */; };
+		FBC6498B2828C88F00A877E0 /* TestComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC649882828C88F00A877E0 /* TestComponent.m */; };
+		FBC6498C2828C88F00A877E0 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC649892828C88F00A877E0 /* TestView.m */; };
+		FBC649902828DEF000A877E0 /* __UNI__C8AF967.wgt in Resources */ = {isa = PBXBuildFile; fileRef = FBC6498F2828DEE600A877E0 /* __UNI__C8AF967.wgt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -185,6 +189,13 @@
 		3ECF2E50281A6AB700E0AC16 /* liblibUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibUI.a; path = UniAppDemo/Libs/liblibUI.a; sourceTree = "<group>"; };
 		5A5524445FF895862B46F395 /* Pods-UniAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniAppDemo.release.xcconfig"; path = "Target Support Files/Pods-UniAppDemo/Pods-UniAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED07F56B29FCB115380CA2C4 /* Pods_UniAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC649832828C88A00A877E0 /* TestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
+		FBC649842828C88A00A877E0 /* TestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModule.m; sourceTree = "<group>"; };
+		FBC649872828C88F00A877E0 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		FBC649882828C88F00A877E0 /* TestComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestComponent.m; sourceTree = "<group>"; };
+		FBC649892828C88F00A877E0 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		FBC6498A2828C88F00A877E0 /* TestComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestComponent.h; sourceTree = "<group>"; };
+		FBC6498F2828DEE600A877E0 /* __UNI__C8AF967.wgt */ = {isa = PBXFileReference; lastKnownFileType = file; path = __UNI__C8AF967.wgt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,11 +259,14 @@
 		3ECF2D21281A3FA400E0AC16 /* UniAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FBC649862828C88F00A877E0 /* Component */,
+				FBC649822828C88A00A877E0 /* Module */,
 				3ECF2DDE281A62AB00E0AC16 /* UniMP */,
 				3ECF2D22281A3FA400E0AC16 /* AppDelegate.h */,
 				3ECF2D23281A3FA400E0AC16 /* AppDelegate.m */,
 				3ECF2D28281A3FA400E0AC16 /* ViewController.h */,
 				3ECF2D29281A3FA400E0AC16 /* ViewController.m */,
+				FBC6498F2828DEE600A877E0 /* __UNI__C8AF967.wgt */,
 				3ECF2D2B281A3FA400E0AC16 /* Main.storyboard */,
 				3ECF2D2E281A3FA500E0AC16 /* Assets.xcassets */,
 				3ECF2D30281A3FA500E0AC16 /* LaunchScreen.storyboard */,
@@ -435,8 +449,27 @@
 				2579DA941C29759231C6FF20 /* Pods-UniAppDemo.debug.xcconfig */,
 				5A5524445FF895862B46F395 /* Pods-UniAppDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBC649822828C88A00A877E0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				FBC649832828C88A00A877E0 /* TestModule.h */,
+				FBC649842828C88A00A877E0 /* TestModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		FBC649862828C88F00A877E0 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6498A2828C88F00A877E0 /* TestComponent.h */,
+				FBC649882828C88F00A877E0 /* TestComponent.m */,
+				FBC649872828C88F00A877E0 /* TestView.h */,
+				FBC649892828C88F00A877E0 /* TestView.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +531,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC649902828DEF000A877E0 /* __UNI__C8AF967.wgt in Resources */,
 				3ECF2E36281A62AC00E0AC16 /* PandoraApi.bundle in Resources */,
 				3ECF2D32281A3FA500E0AC16 /* LaunchScreen.storyboard in Resources */,
 				3ECF2D2F281A3FA500E0AC16 /* Assets.xcassets in Resources */,
@@ -561,8 +595,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ECF2D2A281A3FA400E0AC16 /* ViewController.m in Sources */,
+				FBC649852828C88A00A877E0 /* TestModule.m in Sources */,
 				3ECF2D24281A3FA400E0AC16 /* AppDelegate.m in Sources */,
 				3ECF2D35281A3FA500E0AC16 /* main.m in Sources */,
+				FBC6498C2828C88F00A877E0 /* TestView.m in Sources */,
+				FBC6498B2828C88F00A877E0 /* TestComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

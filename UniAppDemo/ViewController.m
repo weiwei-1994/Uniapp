@@ -35,7 +35,42 @@ static NSString * demoPluginId = @"__UNI__31914F5";
     [openButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [openButton addTarget:self action:@selector(openOperation) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:openButton];
-    // Do any additional setup after loading the view.
+    
+    
+    [self LoadLocalFiles];
+    
+    UIButton * openLocalButton = [UIButton buttonWithType:0];
+    openLocalButton.frame = CGRectMake(10, 200, 50, 50);
+    openLocalButton.backgroundColor = [UIColor redColor];
+    [openLocalButton setTitle:@"Local" forState:UIControlStateNormal];
+    [openLocalButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [openLocalButton addTarget:self action:@selector(openLocalOperation) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:openLocalButton];
+}
+
+-(void)LoadLocalFiles{
+    
+    NSString * appid = @"__UNI__C8AF967";
+    NSString *appResourcePath = [[NSBundle mainBundle] pathForResource:appid ofType:@"wgt"];
+    
+    if (!appResourcePath) {
+        NSLog(@"资源路径不正确，请检查");
+        return;
+    }
+    // 将应用资源部署到运行路径中
+    NSError *error;
+    if ([DCUniMPSDKEngine installUniMPResourceWithAppid:appid resourceFilePath:appResourcePath password:nil error:&error]) {
+        NSLog(@"小程序 %@ 应用资源文件部署成功，版本信息：%@",appid,[DCUniMPSDKEngine getUniMPVersionInfoWithAppid:appid]);
+    } else {
+        NSLog(@"小程序 %@ 应用资源部署失败： %@",appid,error);
+    }
+    
+    
+}
+
+-(void)openLocalOperation{
+    
+    [self openPluginWithAppid:@"__UNI__C8AF967"];
 }
 
 - (NSString *)documentsDir {
